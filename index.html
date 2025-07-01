@@ -2,227 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="keywords " content="How to Code Smart – Blog">
-  <meta name="description" content="How to Code Smart – Blog">
-  <title>How to Code Smart – Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register now for the annual Tech Future Conference!">
+  <meta name="keywords" content="tech conference, event, registration, speakers">
+  <title>Register now for the annual Tech Future Conference!</title>
 </head>
 <body>
-  <article>
-    <header>
-      <h1>How to Code Smart</h1>
-      <time datetime="2025-06-29">June 29, 2025</time>
-    </header>
-    <p>In this tutorial, we will explore how to write clean and efficient code.</p>
-  </article>
+  <header>
+    <h1>Tech Future Conference 2025</h1>
+    <p><time datetime="2025-06-30">June 06, 2025</time></p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#register">Register</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <section id="blockexample">
-    <h2>Example code Block</h2>
-    <pre><code>function greet(name) {
-  return `Hello, ${name}!`;
- }</code></pre>
-      <p>Press:- <kbd>Ctrl</kbd> + <kbd>S</kbd> (to save your file.)</p>
-  </section>
-
-  <section>
-    <section>
-      <h2>Terminal Output</h2>
-      <p><samp>Compiled successfully in 2.3s!</samp></p>
+<main>
+    <section id="about">
+      <h2>About the Event</h2>
+      <p>Join us for an exciting day filled with keynotes, panels, and networking opportunities with top minds in tech.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/demoVideoId" title="Event Teaser Video" frameborder="0" allowfullscreen></iframe>
     </section>
-  </section>
 
-   <aside>
-    <figure>
-      <img src="image/webdevloperimg.jpg" alt="Author Photo" width="250">
-      <figcaption>Suraj Lal Mehta – Web Developer</figcaption>
-    </figure>
-    <blockquote>
-      <p><abbr title="HyperText Markup Language">HTML</abbr> changed my life. I love building with semantic structure.</p>
-      <cite>– Suraj Lal Mehta , CodeCraft Magazine</cite>
-    </blockquote>
-  </aside>
+    <section id="schedule">
+      <h2>Speaker Schedule</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Speaker</th>
+            <th>Topic</th>
+            <th>Room</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">10:00 AM</td>
+            <td>Jane Doe</td>
+            <td>Future of AI</td>
+            <td>Hall A</td>
+          </tr>
+          <tr>
+            <td>John Smith</td>
+            <td>Cybersecurity Trends</td>
+            <td>Hall B</td>
+          </tr>
+          <tr>
+            <td colspan="4">12:00 PM - Lunch Break</td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+            <td>Mary Lin</td>
+            <td>Quantum Computing</td>
+            <td>Hall A</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="4">Schedule subject to change</td></tr>
+        </tfoot>
+      </table>
+    </section>
 
-  <section id="faq">
-    <h2>FAQs</h2>
-    <details>
-      <summary>What is semantic HTML?</summary>
-      <p>Semantic HTML uses tags that describe their meaning in a human- and machine-readable way.</p>
-    </details>
-    <details>
-      <summary>Why use <code>&lt;article&gt;</code> instead of <code>&lt;div&gt;</code>?</summary>
-      <p>It provides better structure and improves accessibility and SEO.</p>
-    </details>
-  </section>
+    <section id="speakers">
+      <h2>Keynote Speakers</h2>
+      <figure>
+        <img src="Image/speakers1.jpeg" alt="Jane Doe" width="150">
+        <figcaption>Jane Doe – AI Researcher</figcaption>
+      </figure>
+      <blockquote>
+        "AI is not the future, it's the present."
+        <cite>– Jane Doe</cite>
+      </blockquote>
 
-  <section id="comments">
- <h2>Leave a Comment</h2>
-    <form aria-label="Comment Form">
-      <fieldset>
-        <legend>Your Comment</legend>
+      <figure>
+        <img src="Image/speaker3.jpeg" alt="John Smith" width="150">
+        <figcaption>John Smith – Security Analyst</figcaption>
+      </figure>
+      <blockquote>
+        "Security must evolve with the speed of innovation."
+        <cite>– John Smith</cite>
+      </blockquote>
+    </section>
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+     <section id="register">
+      <h2>Register Now</h2>
+      <form method="POST" action="register.html" aria-label="Event Registration Form">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required placeholder="Enter your name" aria-label="Full Name">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" aria-label="Email">
 
-        <label for="comment">Comment:</label>
-        <textarea id="comment" name="comment" placeholder="Write your comment here..." required aria-required="true" "></textarea>
-        <button type="submit">Post Comment</button>
-      </fieldset>
-    </form>
-  </section>
+          <label for="phone">Contact Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="1234567890" aria-label="Phone Number">
+        </fieldset>
 
-<section id="image">
-    <h2>Image Gallery</h2>
-    <figure>
-      <img src="image/project1.jpg" alt="Screenshot of project" loading="lazy" width="350">
-      <figcaption>Project Screenshot 1</figcaption>
-    </figure>
-    <figure>
-      <img src="image/peoject2.jpg" alt="UI Design preview" loading="lazy" width="350">
-      <figcaption>UI Design Preview</figcaption>
-    </figure>
-  </section>
+        <fieldset>
+          <legend>Preferences</legend>
+          <label for="track">Preferred Track:</label>
+          <select id="track" name="track">
+            <optgroup label="Tech">
+              <option value="ai">Artificial Intelligence</option>
+              <option value="web">Web Development</option>
+            </optgroup>
+            <optgroup label="Business">
+              <option value="marketing">Digital Marketing</option>
+              <option value="strategy">Tech Strategy</option>
+            </optgroup>
+          </select>
 
-  <section id="posts">
-    <h2>Related Posts</h2>
-    <ul>
-      <li><a href="https://www.linkedin.com/company/105064920/admin/page-posts/published/">Mastering CSS Grid</a></li>
-      <li><a href="https://www.linkedin.com/company/105064920/admin/page-posts/published/">Accessibility in Web Design</a></li>
-      <li><a href="https://www.linkedin.com/company/105064920/admin/page-posts/published/">JavaScript Basics for Beginners</a></li>
-    </ul>
-  </section>
+          <p>Session Choices:</p>
+          <label><input type="checkbox" name="session" value="ai"> AI Basics</label>
+          <label><input type="checkbox" name="session" value="security"> Security Insights</label>
 
-  <footer>
-    <p>&copy; 2025 CodeBlog. All rights reserved.</p>
-    <p>
-      <a href="#">Facebook</a> |
-      <a href="#">Twitter</a> |
-      <a href="#">LinkedIn</a>
+          <p>Gender:</p>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Upload & Requests</legend>
+          <label for="profile">Upload Profile:</label>
+          <input type="file" id="profile" name="profile">
+
+          <label for="requests">Special Requests:</label>
+          <textarea id="requests" name="requests" placeholder="Let us know if you have any requests"></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@techfuture.com">info@techfuture.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+      <p>Venue:</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.270664540847!2d-122.40137748493984!3d37.7897614797568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c9f1462c1%3A0xf80c5b3508b4d0e3!2sGoogleplex!5e0!3m2!1sen!2sus!4v1633363876322!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+</main>
+
+<footer>
+    <address>© <time datetime="2025">2025</time> Tech Future Conference</address>
+    <p>Follow us on:
+      <a href="#">Twitter</a>, <a href="#">LinkedIn</a>, <a href="#">Facebook</a>
     </p>
+    <audio controls>
+      <source src="welcome-tone.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <small>All rights reserved.</small>
   </footer>
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A blog article page with code tutorials, author info, comments, and FAQs">
-  <link rel="canonical" href="https://example.com/blog/how-to-code-smart">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <title>How to Code Smart – Blog</title>
-</head>
-<body>
-  <a href="#top" id="top">Back to Top</a>
-  <article>
-    <header>
-      <h1>How to Code Smart</h1>
-      <time datetime="2025-06-27">June 27, 2025</time>
-    </header>
-    <p>In this tutorial, we will explore how to write clean and efficient code.</p>
-
-    <section>
-      <h2>Example Code Block</h2>
-      <pre><code>function greet(name) {
-  return `Hello, ${name}!`;
-}</code></pre>
-      <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save your file.</p>
-    </section>
-
-    <section>
-      <h2>Terminal Output</h2>
-      <p><samp>Compiled successfully in 2.3s!</samp></p>
-    </section>
-  </article>
-
-  <aside>
-    <figure>
-      <img src="author.jpg" alt="Author Photo" width="150">
-      <figcaption>Jane Doe – Web Developer</figcaption>
-    </figure>
-    <blockquote>
-      <p><abbr title="HyperText Markup Language">HTML</abbr> changed my life. I love building with semantic structure.</p>
-      <cite>– Jane Doe, CodeCraft Magazine</cite>
-    </blockquote>
-  </aside>
-
-  <section>
-    <h2>FAQs</h2>
-    <details>
-      <summary>What is semantic HTML?</summary>
-      <p>Semantic HTML uses tags that describe their meaning in a human- and machine-readable way.</p>
-    </details>
-    <details>
-      <summary>Why use <code>&lt;article&gt;</code> instead of <code>&lt;div&gt;</code>?</summary>
-      <p>It provides better structure and improves accessibility and SEO.</p>
-    </details>
-  </section>
-
-  <section id="comments">
-    <h2>Leave a Comment</h2>
-    <form aria-label="Comment Form">
-      <fieldset>
-        <legend>Your Comment</legend>
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true">
-
-        <label for="comment">Comment:</label>
-        <textarea id="comment" name="comment" placeholder="Write your comment here..." required aria-required="true" oninput="previewOutput.value = comment.value"></textarea>
-
-        <label for="preview">Live Preview:</label>
-        <output id="previewOutput"></output>
-
-        <button type="submit">Post Comment</button>
-      </fieldset>
-    </form>
-  </section>
-
-  <section>
-    <h2>Image Gallery</h2>
-    <figure>
-      <img src="gallery1.jpg" alt="Screenshot of project" loading="lazy">
-      <figcaption>Project Screenshot 1</figcaption>
-    </figure>
-    <figure>
-      <img src="gallery2.jpg" alt="UI Design preview" loading="lazy">
-      <figcaption>UI Design Preview</figcaption>
-    </figure>
-  </section>
-
-  <section>
-    <h2>Related Posts</h2>
-    <ul>
-      <li><a href="#">Mastering CSS Grid</a></li>
-      <li><a href="#">Accessibility in Web Design</a></li>
-      <li><a href="#">JavaScript Basics for Beginners</a></li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 CodeBlog. All rights reserved.</p>
-    <p>
-      Share:
-      <a href="#">Facebook</a> |
-      <a href="#">Twitter</a> |
-      <a href="#">LinkedIn</a>
-    </p>
-  </footer>
-</body>
-</html> -->
