@@ -2,104 +2,144 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords " content="Smartwatch, Tech Gadget, Landing Page">
+  <meta name="description" content="Landing page for the new SmartX smartwatch with product demo, comparison, and inquiry form.">
+  <link rel="stylesheet" href="style.css">
+  <title>SmartX Smartwatch </title>
 </head>
 
 <body>
-    <header>
-        <h1>My Resume</h1>
-        <nav>
-            <img src="logo.png" alt="My Logo" width="100">
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</li>
-                <li><a href="#educations">Education & Experience</li>
-                <li><a href="#contact">Contact </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="#about">
-            <h2>About Me</h1>
-                <p>
-                    My name is Amrita Kumari, I'm a web developer passionate about building accessible, user-friendly
-                    websites.
-                </p>
-                <img src="logo.png" alt="My Logo" width="100">
-        </section>
-        <section class="#skills">
-            <h2>Skills I Have</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Skill Name</th>
-                            <th>Proficiency</th>
-                            <th>Years of Experience</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Full Stack developer </td>
-                            <td>Digisoultech Pvt Ltd </td>
-                            <td>8 month </td>
-                        </tr>
-                    </tbody>
-                </table>
-        </section>
-        <section class="#educations">
-            <h2>Education & Experience</h1>
-                <ul>
-                    <li>Education
-                        <ul>
-                            <li>BCA - ICFAI University Jharkhand (2021-2025)</li>
-                        </ul>
-                        <ul>
-                            <li></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>Experience
-                        <ul>
-                            <li>Full Stack developer - Digisoultech Pvt Ltd</li>
-                        </ul>
-                        <ul>
-                            <li>Client Relationship Manager - Sudha software solutions</li>
-                        </ul>
-                    </li>
-                </ul>
-        </section>
-       <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="amritakumari.official01@gmail.com">amritakumari.official01@gmail.com</a></p>
-      <p>Phone: <a href="tel:+1234567890">+91 9608886504</a></p>
-      <p><a href="resume.pdf" download>Download Resume (PDF)</a></p>
-      <h3>Introduction Video</h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+  <header>
+    <h1> Smartwatch </h1>
+    <p>The Future on Your Wrist</p>
+    <img src="image/herosectionimg.jpeg" alt="SmartX Watch" width="300">
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#comparison">Compare</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#inquiry">Inquiry</a>
+    </nav>
+    <button>Buy Now</button>
+    <button>Watch Demo</button>
+  </header>
+  <section id="features">
+    <h3>Feature Of Smartwatch</h3>
+    <ul>
+      <li>Heart Rate Monitoring</li>
+      <li>GPS Tracking</li>
+      <li>Water Resistant</li>
+      <li>7-Day Battery Life</li>
+    </ul>
+  </section>
 
-                 <form>
-        <fieldset>
-          <legend>Get in Touch</legend>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
+  <section id="productdemo">
+    <h1>Product Demo</h1>
+    <video controls autoplay muted poster="herosectionimg.jpeg" width="640">
+      <source src="image/watchdemovedio.png" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+  <section id="comparison">
+    <h2>Comparison Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Features</th>
+          <th>SmartX Smartwatch</th>
+          <th>Competitor A</th>
+          <th>Competitor B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Battery Life</th>
+          <td>7 Days</td>
+          <td>5 Days</td>
+          <td>4 Days</td>
+        </tr>
+        <tr>
+          <th scope="row">Water Resistance</th>
+          <td>Yes</td>
+          <td>Limited</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <th scope="row">Heart Rate Monitor</th>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">*Features listed are subject to change</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
 
-          <label for="phone">Phone:</label>
-          <input type="tel" id="phone" name="phone">
+  <section id="testimonials">
+    <h2>Customer Testimonials</h2>
+    <blockquote>
+      "SmartX changed how I track my health. Incredibly accurate and stylish!"
+      <cite>Suraj Lal Mehta</cite>
+      <br>
+      <label>Rating:</label>
+      <meter min="0" max="5" value="4.0"></meter>
+    </blockquote>
+    <blockquote>
+      "Great value for money, lasts all week on one charge."
+      <cite>Amrita Kumari</cite>
+      <br>
+      <label>Rating:</label>
+      <meter min="0" max="5" value="4.5"></meter>
+    </blockquote>
+  </section>
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
+  <section id="locator">
+    <h2>Find a Store Near You</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.858380637856!2d85.3488453!3d23.3552783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1fbc62ca573%3A0xd603afa83aa42e77!2sSudha%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1719731075429!5m2!1sen!2sin"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </section>
+  <section id="inquiry">
+    <h2>Purchase Inquiry</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required aria-label="Full Name">
 
-          <button type="submit">Submit</button>
-        </fieldset>
-      </form>
-        </section>
-    </main>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required aria-label="Email Address">
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" aria-label="Phone Number">
+
+      <label for="interest">Interest:</label>
+      <textarea id="interest" name="interest" required></textarea>
+      <label for="variant">Product Variant:</label>
+      <select id="variant" name="variant">
+        <option value="standard">Standard</option>
+        <option value="pro">Pro</option>
+        <option value="lite">Lite</option>
+      </select>
+      <button type="submit">Submit Inquiry</button>
+
+  </section>
+
+  <footer>
+    <h3>Conctact Details</h3>
+    <p>Numaber: 8292785432</p>
+    <p>Email: amritakumari.official01@gmail.com</p>
+    <a href="https://www.linkedin.com/in/amritakumari01/">Connect on Linkedin</a></p>
+    <audio controls>
+      <source src="feedback-tone.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </footer>
 </body>
 
 </html>
