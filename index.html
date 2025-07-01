@@ -1,145 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords " content="Smartwatch, Tech Gadget, Landing Page">
-  <meta name="description" content="Landing page for the new SmartX smartwatch with product demo, comparison, and inquiry form.">
-  <link rel="stylesheet" href="style.css">
-  <title>SmartX Smartwatch </title>
+  <meta name="keywords " content="How to Code Smart – Blog">
+  <meta name="description" content="How to Code Smart – Blog">
+  <title>How to Code Smart – Blog</title>
 </head>
-
 <body>
-  <header>
-    <h1> Smartwatch </h1>
-    <p>The Future on Your Wrist</p>
-    <img src="image/herosectionimg.jpeg" alt="SmartX Watch" width="300">
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#comparison">Compare</a>
-      <a href="#testimonials">Testimonials</a>
-      <a href="#inquiry">Inquiry</a>
-    </nav>
-    <button>Buy Now</button>
-    <button>Watch Demo</button>
-  </header>
-  <section id="features">
-    <h3>Feature Of Smartwatch</h3>
+  <article>
+    <header>
+      <h1>How to Code Smart</h1>
+      <time datetime="2025-06-29">June 29, 2025</time>
+    </header>
+    <p>In this tutorial, we will explore how to write clean and efficient code.</p>
+  </article>
+
+  <section id="blockexample">
+    <h2>Example code Block</h2>
+    <pre><code>function greet(name) {
+  return `Hello, ${name}!`;
+ }</code></pre>
+      <p>Press:- <kbd>Ctrl</kbd> + <kbd>S</kbd> (to save your file.)</p>
+  </section>
+
+  <section>
+    <section>
+      <h2>Terminal Output</h2>
+      <p><samp>Compiled successfully in 2.3s!</samp></p>
+    </section>
+  </section>
+
+   <aside>
+    <figure>
+      <img src="image/webdevloperimg.jpg" alt="Author Photo" width="250">
+      <figcaption>Suraj Lal Mehta – Web Developer</figcaption>
+    </figure>
+    <blockquote>
+      <p><abbr title="HyperText Markup Language">HTML</abbr> changed my life. I love building with semantic structure.</p>
+      <cite>– Suraj Lal Mehta , CodeCraft Magazine</cite>
+    </blockquote>
+  </aside>
+
+  <section id="faq">
+    <h2>FAQs</h2>
+    <details>
+      <summary>What is semantic HTML?</summary>
+      <p>Semantic HTML uses tags that describe their meaning in a human- and machine-readable way.</p>
+    </details>
+    <details>
+      <summary>Why use <code>&lt;article&gt;</code> instead of <code>&lt;div&gt;</code>?</summary>
+      <p>It provides better structure and improves accessibility and SEO.</p>
+    </details>
+  </section>
+
+  <section id="comments">
+ <h2>Leave a Comment</h2>
+    <form aria-label="Comment Form">
+      <fieldset>
+        <legend>Your Comment</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true">
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" placeholder="Write your comment here..." required aria-required="true" "></textarea>
+        <button type="submit">Post Comment</button>
+      </fieldset>
+    </form>
+  </section>
+
+<section id="image">
+    <h2>Image Gallery</h2>
+    <figure>
+      <img src="image/project1.jpg" alt="Screenshot of project" loading="lazy" width="350">
+      <figcaption>Project Screenshot 1</figcaption>
+    </figure>
+    <figure>
+      <img src="image/peoject2.jpg" alt="UI Design preview" loading="lazy" width="350">
+      <figcaption>UI Design Preview</figcaption>
+    </figure>
+  </section>
+
+  <section id="posts">
+    <h2>Related Posts</h2>
     <ul>
-      <li>Heart Rate Monitoring</li>
-      <li>GPS Tracking</li>
-      <li>Water Resistant</li>
-      <li>7-Day Battery Life</li>
+      <li><a href="https://www.linkedin.com/company/105064920/admin/page-posts/published/">Mastering CSS Grid</a></li>
+      <li><a href="https://www.linkedin.com/company/105064920/admin/page-posts/published/">Accessibility in Web Design</a></li>
+      <li><a href="https://www.linkedin.com/company/105064920/admin/page-posts/published/">JavaScript Basics for Beginners</a></li>
     </ul>
   </section>
 
-  <section id="productdemo">
-    <h1>Product Demo</h1>
-    <video controls autoplay muted poster="herosectionimg.jpeg" width="640">
-      <source src="image/watchdemovedio.png" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </section>
+  <footer>
+    <p>&copy; 2025 CodeBlog. All rights reserved.</p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
 
-  <section id="comparison">
-    <h2>Comparison Table</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Features</th>
-          <th>SmartX Smartwatch</th>
-          <th>Competitor A</th>
-          <th>Competitor B</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Battery Life</th>
-          <td>7 Days</td>
-          <td>5 Days</td>
-          <td>4 Days</td>
-        </tr>
-        <tr>
-          <th scope="row">Water Resistance</th>
-          <td>Yes</td>
-          <td>Limited</td>
-          <td>No</td>
-        </tr>
-        <tr>
-          <th scope="row">Heart Rate Monitor</th>
-          <td>Yes</td>
-          <td>Yes</td>
-          <td>No</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="4">*Features listed are subject to change</td>
-        </tr>
-      </tfoot>
-    </table>
-  </section>
 
-  <section id="testimonials">
-    <h2>Customer Testimonials</h2>
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A blog article page with code tutorials, author info, comments, and FAQs">
+  <link rel="canonical" href="https://example.com/blog/how-to-code-smart">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>How to Code Smart – Blog</title>
+</head>
+<body>
+  <a href="#top" id="top">Back to Top</a>
+  <article>
+    <header>
+      <h1>How to Code Smart</h1>
+      <time datetime="2025-06-27">June 27, 2025</time>
+    </header>
+    <p>In this tutorial, we will explore how to write clean and efficient code.</p>
+
+    <section>
+      <h2>Example Code Block</h2>
+      <pre><code>function greet(name) {
+  return `Hello, ${name}!`;
+}</code></pre>
+      <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save your file.</p>
+    </section>
+
+    <section>
+      <h2>Terminal Output</h2>
+      <p><samp>Compiled successfully in 2.3s!</samp></p>
+    </section>
+  </article>
+
+  <aside>
+    <figure>
+      <img src="author.jpg" alt="Author Photo" width="150">
+      <figcaption>Jane Doe – Web Developer</figcaption>
+    </figure>
     <blockquote>
-      "SmartX changed how I track my health. Incredibly accurate and stylish!"
-      <cite>Suraj Lal Mehta</cite>
-      <br>
-      <label>Rating:</label>
-      <meter min="0" max="5" value="4.0"></meter>
+      <p><abbr title="HyperText Markup Language">HTML</abbr> changed my life. I love building with semantic structure.</p>
+      <cite>– Jane Doe, CodeCraft Magazine</cite>
     </blockquote>
-    <blockquote>
-      "Great value for money, lasts all week on one charge."
-      <cite>Amrita Kumari</cite>
-      <br>
-      <label>Rating:</label>
-      <meter min="0" max="5" value="4.5"></meter>
-    </blockquote>
+  </aside>
+
+  <section>
+    <h2>FAQs</h2>
+    <details>
+      <summary>What is semantic HTML?</summary>
+      <p>Semantic HTML uses tags that describe their meaning in a human- and machine-readable way.</p>
+    </details>
+    <details>
+      <summary>Why use <code>&lt;article&gt;</code> instead of <code>&lt;div&gt;</code>?</summary>
+      <p>It provides better structure and improves accessibility and SEO.</p>
+    </details>
   </section>
 
-  <section id="locator">
-    <h2>Find a Store Near You</h2>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.858380637856!2d85.3488453!3d23.3552783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e1fbc62ca573%3A0xd603afa83aa42e77!2sSudha%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1719731075429!5m2!1sen!2sin"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-    </iframe>
+  <section id="comments">
+    <h2>Leave a Comment</h2>
+    <form aria-label="Comment Form">
+      <fieldset>
+        <legend>Your Comment</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required aria-required="true">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true">
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" placeholder="Write your comment here..." required aria-required="true" oninput="previewOutput.value = comment.value"></textarea>
+
+        <label for="preview">Live Preview:</label>
+        <output id="previewOutput"></output>
+
+        <button type="submit">Post Comment</button>
+      </fieldset>
+    </form>
   </section>
-  <section id="inquiry">
-    <h2>Purchase Inquiry</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required aria-label="Full Name">
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required aria-label="Email Address">
+  <section>
+    <h2>Image Gallery</h2>
+    <figure>
+      <img src="gallery1.jpg" alt="Screenshot of project" loading="lazy">
+      <figcaption>Project Screenshot 1</figcaption>
+    </figure>
+    <figure>
+      <img src="gallery2.jpg" alt="UI Design preview" loading="lazy">
+      <figcaption>UI Design Preview</figcaption>
+    </figure>
+  </section>
 
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" aria-label="Phone Number">
-
-      <label for="interest">Interest:</label>
-      <textarea id="interest" name="interest" required></textarea>
-      <label for="variant">Product Variant:</label>
-      <select id="variant" name="variant">
-        <option value="standard">Standard</option>
-        <option value="pro">Pro</option>
-        <option value="lite">Lite</option>
-      </select>
-      <button type="submit">Submit Inquiry</button>
-
+  <section>
+    <h2>Related Posts</h2>
+    <ul>
+      <li><a href="#">Mastering CSS Grid</a></li>
+      <li><a href="#">Accessibility in Web Design</a></li>
+      <li><a href="#">JavaScript Basics for Beginners</a></li>
+    </ul>
   </section>
 
   <footer>
-    <h3>Conctact Details</h3>
-    <p>Numaber: 8292785432</p>
-    <p>Email: amritakumari.official01@gmail.com</p>
-    <a href="https://www.linkedin.com/in/amritakumari01/">Connect on Linkedin</a></p>
-    <audio controls>
-      <source src="feedback-tone.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-    </audio>
+    <p>&copy; 2025 CodeBlog. All rights reserved.</p>
+    <p>
+      Share:
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">LinkedIn</a>
+    </p>
   </footer>
 </body>
-
-</html>
+</html> -->
